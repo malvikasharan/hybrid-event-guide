@@ -103,6 +103,19 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 	<tw-storydata name="Persona and Pathway for Remote &amp; Hybrid Events" startnode="1" creator="Twine" creator-version="2.3.5" ifid="8FB03531-8995-45D8-B207-194A209F05B1" zoom="0.6" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">#menu-item-saves {
 	display: none;
 }
+
+body, tw-story
+{
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #363636;
+  background-color: white;
+}
+a
+{
+  color: orange;
+}
+
 progress {
   background-color: #f3f3f3;
   border: 0;
@@ -115,62 +128,40 @@ progress {
 
 //Persona is a detail of an imaginary user or member, based on real-world observations and understandings of actual potential. Persona is useful when paired with pathways, which captures how those users or members might interact with our project.//
 !!![[Learn more about this document-&gt;about]]
-[[click to go to next page-&gt;about]]
 
 &lt;img src=&quot;images/DistributedCollaboration.png&quot; alt=&quot;Online meeting with distributed team&quot; width=400&gt;
 
-//Image source: The Turing Way Community, &amp; Scriberia. (2020, March 3). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.3695300, CC-BY license//</tw-passagedata><tw-passagedata pid="2" name="background" tags="" position="433.33333333333337,126.66666666666666" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+//Image source: The Turing Way Community, &amp; Scriberia. (2020, March 3). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.3695300, CC-BY license//
+
+[[click to go to next page-&gt;about]]</tw-passagedata><tw-passagedata pid="2" name="background" tags="" position="433.33333333333337,126.66666666666666" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
 &lt;progress id=&quot;file&quot; value=&quot;20&quot; max=&quot;100&quot;&gt;20%&lt;/progress&gt; 
 !!&#39;&#39;Section 1: Background&#39;&#39;
 
 //Reflect on the job, career, education and family aspect of &lt;&lt;print $persona&gt;&gt;.//
 
 Ask the following questions
-
 # Which job does &lt;&lt;print $persona&gt;&gt; hold?
 # What is &lt;&lt;print $persona&gt;&gt;&#39;s family status? //Examples, single, parent, married, pet-owner, parent, or carer.//
 # Do &lt;&lt;print $persona&gt;&gt; have any health issues? //yes or no.//
 # What is &lt;&lt;print $persona&gt;&gt;&#39;s social environment like? //Examples: neutral, favorable, supportive, non-supportive, financially challenging, distracting, politically challenging.//
 
-[[Go to the next page-&gt;demography]]</tw-passagedata><tw-passagedata pid="3" name="demography" tags="" position="525,250" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+[[Go to the next page-&gt;demography]]</tw-passagedata><tw-passagedata pid="3" name="demography" tags="" position="536.6666666666666,125" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
 &lt;progress id=&quot;file&quot; value=&quot;25&quot; max=&quot;100&quot;&gt;25%&lt;/progress&gt; 
 !!&#39;&#39;Section 2: Demography&#39;&#39;
 
 //Reflect on the the age range, gender, location, living situation of &lt;&lt;print $persona&gt;&gt;.//
 
-1. Select an age group for &lt;&lt;print $persona&gt;&gt; to go to the next question:
+#Select an age group for &lt;&lt;print $persona&gt;&gt;. //For example, below 16, 17 - 21, 21 - 30, 31 - 45, 45 - 65, above 65//
+#Select a gender of your &lt;&lt;print $persona&gt;&gt;. //For example, cis woman, trans woman, cis man, trans-Man, gender queer or gender fluid, gender non-conformative or other//
 
-* below 16
-* 17 - 21
-* 21 - 30
-* 31 - 45
-* 45 - 65
-* above 65
 
-[[Go to the next page-&gt;gender]]
+[[Go to the next page-&gt;location]]
  
-</tw-passagedata><tw-passagedata pid="4" name="gender" tags="" position="650,98.33333333333333" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+</tw-passagedata><tw-passagedata pid="4" name="location" tags="" position="641.6666666666666,126.66666666666666" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
 &lt;progress id=&quot;file&quot; value=&quot;30&quot; max=&quot;100&quot;&gt;30%&lt;/progress&gt; 
 !!&#39;&#39;Section 2: Demography - Gender&#39;&#39;
 
-2. Select a gender person &lt;&lt;print $persona&gt;&gt;:
-
-* Cis-woman
-* Trans-woman
-* Cis-man
-* Trans-Man
-* Gender queer
-* Gender fluid
-* Gender non-conformative
-* Don&#39;t want to specify
-* Other
-
-[[Go to the next page-&gt;timezone]]</tw-passagedata><tw-passagedata pid="5" name="timezone" tags="" position="800,101.66666666666667" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;35&quot; max=&quot;100&quot;&gt;35%&lt;/progress&gt; 
-!!&#39;&#39;Section 2: Demography - Time Zone&#39;&#39;
-
 3. Select a representative time zone for &lt;&lt;print $persona&gt;&gt; to go to the next question:
-
 * UTC	Universal Coordinated Time	GMT
 * EET	Eastern European Time	GMT+2:00
 * IST	India Standard Time	GMT+5:30
@@ -180,18 +171,24 @@ Ask the following questions
 * BET	Brazil Eastern Time	GMT-3:00
 * CAT	Central African Time	GMT-1:00
 
-[[Go to the next page-&gt;demography2]]</tw-passagedata><tw-passagedata pid="6" name="demography2" tags="" position="798.3333333333334,223.33333333333334" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+[[Go to the next page-&gt;condition]]</tw-passagedata><tw-passagedata pid="5" name="condition" tags="" position="750,126.66666666666667" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;35&quot; max=&quot;100&quot;&gt;35%&lt;/progress&gt; 
+!!&#39;&#39;Section 2: Demography - Time Zone&#39;&#39;
+
+# If there is any disability or physical barrier that &lt;&lt;print $persona&gt;&gt; have to deal with when participating?
+# What is &lt;&lt;print $persona&gt;&gt;&#39;s living situation?
+# Select a representative time zone for &lt;&lt;print $persona&gt;&gt; to go to the next question:
+* UTC	Universal Coordinated Time	GMT
+* EET	Eastern European Time	GMT+2:00
+* IST	India Standard Time	GMT+5:30
+* JST	Japan Standard Time	GMT+9:00
+* NST	New Zealand Standard Time	GMT+12:00
+* CST	Central Standard Time	GMT-6:00
+* BET	Brazil Eastern Time	GMT-3:00
+* CAT	Central African Time	GMT-1:00
+
+[[Go to the next page-&gt;profile1]]</tw-passagedata><tw-passagedata pid="6" name="profile1" tags="" position="441.6666666666667,241.66666666666666" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
 &lt;progress id=&quot;file&quot; value=&quot;40&quot; max=&quot;100&quot;&gt;40%&lt;/progress&gt; 
-!!&#39;&#39;Section 2: Demography&#39;&#39;
-
-
-4. If there is any disability or physical barrier that &lt;&lt;print $persona&gt;&gt; have to deal with when participating?
-5. What is &lt;&lt;print $persona&gt;&gt;&#39;s living situation?
-
-
-
-[[Go to the next page-&gt;profile1]]</tw-passagedata><tw-passagedata pid="7" name="profile1" tags="" position="650,375" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;45&quot; max=&quot;100&quot;&gt;45%&lt;/progress&gt; 
 !!&#39;&#39;Section 3: Persona Profile - I&#39;&#39;
 
 //This section will reflect on the hobbies, interests, and things &lt;&lt;print $persona&gt;&gt; enjoys doing on a regular basis.//
@@ -199,29 +196,11 @@ Ask the following questions
 
 # What hobbies and interests &lt;&lt;print $persona&gt;&gt; has?
 # What personality/demeanor (such as introvert, extrovert etc.) matches &lt;&lt;print $persona&gt;&gt;&#39;s?
+# How will &lt;&lt;print $persona&gt;&gt; potentially find out about the event? //For example, by email, mailing list or forums, Twitter, Facebook, Slack, Gitter, newsletters, website or community repository//
 
 
-
-[[Go to the next page-&gt;channels]]</tw-passagedata><tw-passagedata pid="8" name="channels" tags="" position="800,375" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;50&quot; max=&quot;100&quot;&gt;50%&lt;/progress&gt; 
-!!&#39;&#39;Section 3: Persona Profile - Preferred Communication Channels&#39;&#39;
-
-3. How will &lt;&lt;print $persona&gt;&gt; potentially find out about the event?
-
-* Email
-* Mailing list or forums
-* Twitter
-* Facebook
-* Slack
-* Gitter
-* Newsletter
-* Website
-* Community repository
-
-
-[[Go to the next page-&gt;profile2]]
-</tw-passagedata><tw-passagedata pid="9" name="profile2" tags="" position="973.3333333333334,298.3333333333333" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;55&quot; max=&quot;100&quot;&gt;55%&lt;/progress&gt; 
+[[Go to the next page-&gt;profile2]]</tw-passagedata><tw-passagedata pid="7" name="profile2" tags="" position="598.3333333333334,239.99999999999997" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;45&quot; max=&quot;100&quot;&gt;45%&lt;/progress&gt; 
 !!&#39;&#39;Section 3: Persona Profile - II&#39;&#39;
 
 # What keeps &lt;&lt;print $persona&gt;&gt; motivated on a typical day?
@@ -231,8 +210,8 @@ Ask the following questions
 
 [[Go to the next page-&gt;online1]]
 
-</tw-passagedata><tw-passagedata pid="10" name="online1" tags="" position="950,523.3333333333334" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;60&quot; max=&quot;100&quot;&gt;60%&lt;/progress&gt; 
+</tw-passagedata><tw-passagedata pid="8" name="online1" tags="" position="728.3333333333333,243.33333333333337" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;50&quot; max=&quot;100&quot;&gt;50%&lt;/progress&gt; 
 !!&#39;&#39;Section 4: Online Participation&#39;&#39;
 //This section will reflect on the resources available to &lt;&lt;print $persona&gt;&gt; to attend this event online.//
 
@@ -250,8 +229,8 @@ Ask the following questions
 
 [[Go to the next page-&gt;online2]]
 
-</tw-passagedata><tw-passagedata pid="11" name="online2" tags="" position="1100,525" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;65&quot; max=&quot;100&quot;&gt;65%&lt;/progress&gt; 
+</tw-passagedata><tw-passagedata pid="9" name="online2" tags="" position="858.3333333333333,246.66666666666663" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;55&quot; max=&quot;100&quot;&gt;55%&lt;/progress&gt; 
 !!&#39;&#39;Section 4: Online Participation -  Preparation time&#39;&#39;
 
 4. Select an option considering how much time (minimum) do &lt;&lt;print $persona&gt;&gt; needs to prepare/plan for attending this event? This will help you set a deadline for your event registration.
@@ -264,8 +243,8 @@ Ask the following questions
 
 
 [[Go to the next page-&gt;online3]]
-</tw-passagedata><tw-passagedata pid="12" name="online3" tags="" position="1250,525" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;70&quot; max=&quot;100&quot;&gt;70%&lt;/progress&gt; 
+</tw-passagedata><tw-passagedata pid="10" name="online3" tags="" position="988.3333333333333,241.66666666666663" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;60&quot; max=&quot;100&quot;&gt;60%&lt;/progress&gt; 
 !!&#39;&#39;Section 4: Online Participation -  Challenges&#39;&#39;
 
 # Would &lt;&lt;print $persona&gt;&gt; be able to attend the event online for the entire duration?
@@ -275,8 +254,8 @@ Ask the following questions
 
 
 [[Go to the next page-&gt;inperson1]]
-</tw-passagedata><tw-passagedata pid="13" name="inperson1" tags="" position="800,725" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;75&quot; max=&quot;100&quot;&gt;75%&lt;/progress&gt; 
+</tw-passagedata><tw-passagedata pid="11" name="inperson1" tags="" position="833.3333333333334,396.66666666666663" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;65&quot; max=&quot;100&quot;&gt;65%&lt;/progress&gt; 
 !!&#39;&#39;Section 5: In person participation - I&#39;&#39;
 
 //This section will reflect on the resources available to &lt;&lt;print $persona&gt;&gt; to attend this event in person.//
@@ -286,8 +265,8 @@ Ask the following questions
 # Do &lt;&lt;print $persona&gt;&gt; need visa for their travel?
 # What other resources do &lt;&lt;print $persona&gt;&gt; need to attend the event?
 
-[[Go to the next page-&gt;inperson2]]</tw-passagedata><tw-passagedata pid="14" name="goals" tags="" position="550,825" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;85&quot; max=&quot;100&quot;&gt;85%&lt;/progress&gt; 
+[[Go to the next page-&gt;inperson2]]</tw-passagedata><tw-passagedata pid="12" name="goals" tags="" position="971.6666666666667,516.6666666666666" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;75&quot; max=&quot;100&quot;&gt;75%&lt;/progress&gt; 
 !!&#39;&#39;Section 6: Expectations and goals&#39;&#39;
 
 //This section will reflect on the expectatations, goals and emotions of &lt;&lt;print $persona&gt;&gt; in regards with this event.//
@@ -300,8 +279,8 @@ Ask the following questions
 
 
 [[Go to the next page-&gt;challenges]]
-</tw-passagedata><tw-passagedata pid="15" name="challenges" tags="" position="400,825" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;90&quot; max=&quot;100&quot;&gt;90%&lt;/progress&gt; 
+</tw-passagedata><tw-passagedata pid="13" name="challenges" tags="" position="831.6666666666667,520" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;80&quot; max=&quot;100&quot;&gt;80%&lt;/progress&gt; 
 !!&#39;&#39;Section 7: Challenges&#39;&#39;
 
 //This section will reflect on the challenges and hurdles that &lt;&lt;print $persona&gt;&gt; may encounter in regards to this event.//
@@ -315,8 +294,8 @@ Ask the following questions
 
 [[Go to the next page-&gt;barriers]]
 
-</tw-passagedata><tw-passagedata pid="16" name="barriers" tags="" position="250,823.3333333333334" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;95&quot; max=&quot;100&quot;&gt;95%&lt;/progress&gt; 
+</tw-passagedata><tw-passagedata pid="14" name="barriers" tags="" position="690,518.3333333333334" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;85&quot; max=&quot;100&quot;&gt;85%&lt;/progress&gt; 
 !!&#39;&#39;Section 8: Perceived Barriers&#39;&#39;
 
 //This section will reflect on the perceived barriers that &lt;&lt;print $persona&gt;&gt; may face in regards with this event.//
@@ -328,8 +307,8 @@ Ask the following questions
 
 
 [[Go to the last page-&gt;finishing]]
-</tw-passagedata><tw-passagedata pid="17" name="finishing" tags="" position="276.6666666666667,573.3333333333334" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;100&quot; max=&quot;100&quot;&gt;100%&lt;/progress&gt; 
+</tw-passagedata><tw-passagedata pid="15" name="finishing" tags="" position="433.33333333333337,516.6666666666667" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;90&quot; max=&quot;100&quot;&gt;90%&lt;/progress&gt; 
 !!&#39;&#39;Additional information&#39;&#39;
 
 &lt;img src=images/BannerCongratulations.png alt=&quot;Illustration with a trophy and congrats text&quot; width=400&gt;
@@ -340,11 +319,10 @@ What else can you think of adding that could complete your persona story?
 
 [[Visit next page to save this persona-&gt;story]]
 
-</tw-passagedata><tw-passagedata pid="18" name="about" tags="" position="226.66666666666666,80" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+</tw-passagedata><tw-passagedata pid="16" name="about" tags="" position="226.66666666666666,80" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
 &lt;progress id=&quot;file&quot; value=&quot;5&quot; max=&quot;100&quot;&gt;5%&lt;/progress&gt;  
-!!!!@@color:orange;
-“//Alone, we can do so little; together, we can do so much//” – Helen Keller
-@@
+!!!“//Alone, we can do so little; together, we can do so much//” – Helen Keller
+
 !![[Create a persona-&gt;create]]
 When organizing an event, you must take into account that each of your attendees will have different backgrounds, different cultures, different time zones, different levels of skills and very different lived experiences. 
 
@@ -352,40 +330,40 @@ This document aims to capture different personas in order to understand who our 
 
 You can find some examples in the GitHub repository for &lt;a href=&quot;https://github.com/softwaresaved/hybrid-event-guide&quot;&gt;Hybrid Event&lt;/a&gt;.
 
-[[Go to the next page-&gt;create]]</tw-passagedata><tw-passagedata pid="19" name="create" tags="" position="225,198.33333333333334" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+[[Go to the next page-&gt;create]]</tw-passagedata><tw-passagedata pid="17" name="create" tags="" position="225,198.33333333333334" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
 &lt;progress id=&quot;file&quot; value=&quot;10&quot; max=&quot;100&quot;&gt;10%&lt;/progress&gt; 
 
 
 
-!!@@color:orange;Give your persona a fabulous name!@@
- &lt;&lt;textbox &quot;$persona&quot; persona-name&gt;&gt;
+!!Give your persona a fabulous name!
+ &lt;&lt;textbox &quot;$persona&quot; &quot;persona-name&quot; persona-name&gt;&gt;
  
 
-[[Submit and go to the next page-&gt;greet]]</tw-passagedata><tw-passagedata pid="20" name="inperson2" tags="" position="800,875" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;80&quot; max=&quot;100&quot;&gt;80%&lt;/progress&gt; 
-!!&#39;&#39;Section 5: In person participation - II&#39;&#39;
+[[Submit and go to the next page-&gt;greet]]</tw-passagedata><tw-passagedata pid="18" name="inperson2" tags="" position="971.6666666666667,388.3333333333333" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;70&quot; max=&quot;100&quot;&gt;70%&lt;/progress&gt; 
+!!&#39;&#39;Section 5: In person participation - Concerns&#39;&#39;
+
+This section will reflect on the concerns that may come along with this event.
+
+# How much time (minimum) do &lt;&lt;print $persona&gt;&gt; need to prepare to attend this event in person?
+# Would &lt;&lt;print $persona&gt;&gt; be able to attend the event in-person for the entire duration?
+# What interruptions &lt;&lt;print $persona&gt;&gt; might face while attending this event in-person?
 
 
-5. How much time (minimum) do &lt;&lt;print $persona&gt;&gt; need to prepare to attend this event in person?
-
-6. Would &lt;&lt;print $persona&gt;&gt; be able to attend the event in-person for the entire duration?
-
-7. What interruptions &lt;&lt;print $persona&gt;&gt; might face while attending this event in-person?
-
-
-[[Go to the next page-&gt;goals]]</tw-passagedata><tw-passagedata pid="21" name="greet" tags="" position="348.33333333333337,296.6666666666666" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+[[Go to the next page-&gt;goals]]</tw-passagedata><tw-passagedata pid="19" name="greet" tags="" position="330.00000000000006,128.33333333333323" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
 &lt;progress id=&quot;file&quot; value=&quot;15&quot; max=&quot;100&quot;&gt;15%&lt;/progress&gt; 
 
-!!!“Alright, your persona name is &lt;&lt;print $persona&gt;&gt;.
+!!!“Alright, your persona name is &lt;&lt;print $persona&gt;&gt;!&quot;
 
-We&#39;re good to go!
-[[Click and go the next page-&gt;background]]
+[[We&#39;re good to go!-&gt;background]]
 
 &lt;img src=&quot;images/BannerWelcome.png&quot; alt=&quot;Welcome banner&quot; width=400&gt;
 //Image source: The Turing Way Community, &amp; Scriberia. (2020, March 3). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.3695300, CC-BY license//
 
-//&lt;font color=&quot;orange&quot;&gt;That was not the name you wanted?&lt;/font&gt; [[Change persona name-&gt;create]]//</tw-passagedata><tw-passagedata pid="22" name="story" tags="" position="103.33333333333334,511.6666666666667" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
-&lt;progress id=&quot;file&quot; value=&quot;100&quot; max=&quot;100&quot;&gt;100%&lt;/progress&gt; 
+//&lt;font color=&quot;red&quot;&gt;That was not the name you wanted?&lt;/font&gt; [[Change persona name-&gt;create]]//
+
+[[Click and go the next page-&gt;background]]</tw-passagedata><tw-passagedata pid="20" name="story" tags="" position="185,498.33333333333337" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;95&quot; max=&quot;100&quot;&gt;95%&lt;/progress&gt; 
 !!Save &lt;&lt;print $persona&gt;&gt;&#39;s persona story!
 
 Thank you so much for taking the time to create a persona. 
@@ -395,13 +373,15 @@ We will be delighted if you can add the persona to our Hybrid Event Guide on Git
 &lt;img src=images/BannerThanks.png alt=&quot;Illustration for thank you&quot; width=400&gt;
 //Image source: The Turing Way Community, &amp; Scriberia. (2020, March 3). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.3695300, CC-BY license//
 
-[[Go to the final page-&gt;final]]</tw-passagedata><tw-passagedata pid="23" name="final" tags="" position="58.33333333333334,346.66666666666674" size="100,100">
+[[Go to the final page-&gt;final]]</tw-passagedata><tw-passagedata pid="21" name="final" tags="" position="58.33333333333334,346.66666666666674" size="100,100">&lt;label&gt;&lt;font size=&quot;3&quot; color=&quot;grey&quot;&gt;Persona progress:&lt;/font&gt;&lt;/label&gt;
+&lt;progress id=&quot;file&quot; value=&quot;100&quot; max=&quot;100&quot;&gt;100%&lt;/progress&gt; 
+
 
 //&quot;In every community, there is work to be done. In every heart, there is the power to do it.&quot;// – Marianne Williamson
 
 All the best planning your event!
 
-THE END
+&#39;&#39;THE END&#39;&#39;
 
 [[Go back to the start-&gt;start]]</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
